@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Operative.label>Operative</Operative.label>
+  <Operative.labelPlural>Operatives</Operative.labelPlural>
+  <Operative.labelMale>male Operative</Operative.labelMale>
+  <Operative.labelMalePlural>male Operatives</Operative.labelMalePlural>
+  <Operative.labelFemale>female Operative</Operative.labelFemale>
+  <Operative.labelFemalePlural>female Operatives</Operative.labelFemalePlural>
+
+  <Syndrone.label>Syndicate Strike Leader</Syndrone.label>
+  <Syndrone.labelPlural>Syndicate Strike Leaders</Syndrone.labelPlural>
+  <Syndrone.labelMale>male Syndicate Strike Leader</Syndrone.labelMale>
+  <Syndrone.labelMalePlural>male Syndicate Strike Leaders</Syndrone.labelMalePlural>
+  <Syndrone.labelFemale>female Syndicate Strike Leader</Syndrone.labelFemale>
+  <Syndrone.labelFemalePlural>female Syndicate Strike Leaders</Syndrone.labelFemalePlural>
+
+  <SwordMaster.label>Syndicate SwordMaster</SwordMaster.label>
+  <SwordMaster.labelPlural>Syndicate SwordMasters</SwordMaster.labelPlural>
+  <SwordMaster.labelMale>male Syndicate SwordMaster</SwordMaster.labelMale>
+  <SwordMaster.labelMalePlural>male Syndicate SwordMasters</SwordMaster.labelMalePlural>
+  <SwordMaster.labelFemale>female Syndicate SwordMaster</SwordMaster.labelFemale>
+  <SwordMaster.labelFemalePlural>female Syndicate SwordMasters</SwordMaster.labelFemalePlural>
+
+  <SyndieBomber.label>Syndicate Cuban Pete</SyndieBomber.label>
+  <SyndieBomber.labelPlural>Syndicate Cuban Petes</SyndieBomber.labelPlural>
+  <SyndieBomber.labelMale>male Syndicate Cuban Pete</SyndieBomber.labelMale>
+  <SyndieBomber.labelMalePlural>male Syndicate Cuban Petes</SyndieBomber.labelMalePlural>
+  <SyndieBomber.labelFemale>female Syndicate Cuban Pete</SyndieBomber.labelFemale>
+  <SyndieBomber.labelFemalePlural>female Syndicate Cuban Petes</SyndieBomber.labelFemalePlural>
+
+
+</LanguageData>

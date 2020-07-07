@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_Hardsuit</defName>
+    <label>Blood Red Hardsuit</label>
+    <description>Blood red hardsuit often issued to elite syndicate strike operatives.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <MarketValue>10000</MarketValue>
+      <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>100</Insulation_Cold>
+      <Mass>8</Mass>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.30</MoveSpeed>
+      <WorkSpeedGlobal>-0.30</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>1</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>SyndiSuit</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_SyndiHelmet</defName>
+    <label>Blood Red Helmet</label>
+    <description>A blood red Syndicate helmet often worn together with the syndicate hardsuit by Syndicate strike teams.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <MarketValue>2000</MarketValue>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <Insulation_Cold>100</Insulation_Cold>
+      <Mass>1</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>+0.10</ShootingAccuracyPawn>
+      <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>1</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>SyndiHelmet</li>
+      </tags>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+</Defs>

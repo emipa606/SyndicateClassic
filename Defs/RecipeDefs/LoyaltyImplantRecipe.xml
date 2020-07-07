@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>LoyaltyImplantSurgery</defName>
+    <label>install loyalty implant</label>
+    <description>Installs loyalty implant.</description>
+    <descriptionHyperlinks>
+      <ThingDef>LoyaltyImplant</ThingDef>
+    </descriptionHyperlinks>
+    <workerClass>Spessmen.Recipe_LoyaltyImplant</workerClass>
+    <jobString>Implanting...</jobString>
+    <dontShowIfAnyIngredientMissing>True</dontShowIfAnyIngredientMissing>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LoyaltyImplant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>LoyaltyImplant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ExplosiveImplant</addsHediff>
+  </RecipeDef>
+</Defs>

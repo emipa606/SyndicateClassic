@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="ImplantHediffBase">
+    <hediffClass>Spessmen.Syndicate_Implant_Hediff</hediffClass>
+    <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
+    <defName>ExplosiveImplant</defName>
+    <label>Explosive Implant</label>
+    <description>A high tech, unethical form of recruiting.</description>
+    <spawnThingOnRemoved>LoyaltyImplant</spawnThingOnRemoved>
+  </HediffDef>
+</Defs>

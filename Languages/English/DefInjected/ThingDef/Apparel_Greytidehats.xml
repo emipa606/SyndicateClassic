@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_CakeHat.label>Cake Hat</Apparel_CakeHat.label>
+  <Apparel_CakeHat.description>Makes for a very decorative cake top, also great for the Assistants who want to dress to impress.</Apparel_CakeHat.description>
+
+  <Apparel_GasMask.label>Gas Mask</Apparel_GasMask.label>
+  <Apparel_GasMask.description>Standard dress code for most respectable Assistants.</Apparel_GasMask.description>
+
+  <Apparel_InsulatedGloves.label>Insulated Gloves</Apparel_InsulatedGloves.label>
+  <Apparel_InsulatedGloves.description>An Assistants best friend.</Apparel_InsulatedGloves.description>
+
+  <Apparel_WeldingHelmet.label>Welding Helmet</Apparel_WeldingHelmet.label>
+  <Apparel_WeldingHelmet.description>Makes for a great makeshift helmet but impairs your vision quite a bit.</Apparel_WeldingHelmet.description>
+
+
+</LanguageData>
