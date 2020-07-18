@@ -33,6 +33,7 @@
       </layers>
       <tags>
         <li>SyndiSuit</li>
+        <li>EVA</li>
       </tags>
       <bodyPartGroups>
         <li>Torso</li>
@@ -74,6 +75,7 @@
       </layers>
       <tags>
         <li>SyndiHelmet</li>
+        <li>EVA</li>
       </tags>
       <bodyPartGroups>
         <li>FullHead</li>
