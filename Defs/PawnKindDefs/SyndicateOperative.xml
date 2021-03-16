@@ -96,6 +96,7 @@
     <maxGenerationAge>48</maxGenerationAge>
     <invNutrition>2</invNutrition>
     <itemQuality>Legendary</itemQuality>
+    <factionLeader>true</factionLeader>
     <gearHealthRange>
       <min>1</min>
       <max>1.8</max>

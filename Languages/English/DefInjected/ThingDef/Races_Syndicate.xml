@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Human -->
-
   <Syndicate.label>human</Syndicate.label>
   <Syndicate.description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</Syndicate.description>
   <Syndicate.tools.0.label>left fist</Syndicate.tools.0.label>
   <Syndicate.tools.1.label>right fist</Syndicate.tools.1.label>
   <Syndicate.tools.2.label>teeth</Syndicate.tools.2.label>
   <Syndicate.tools.3.label>head</Syndicate.tools.3.label>
-
-
 </LanguageData>
