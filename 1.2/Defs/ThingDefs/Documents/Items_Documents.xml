@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ArtifactBase">
+    <defName>Document</defName>
+    <label>Secret Documents</label>
+    <description>A folder of top secret documents that may contain sensitive information on the Syndicate and Nanotrasen, you can't eat it, cook or it or make anything out of it but tradeships and caravans would probably pay a lot to get their hands on the information held within.</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/Document</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>35000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+</Defs>

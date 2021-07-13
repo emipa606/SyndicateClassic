@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffGiverSetDef>
+    <defName>SyndicateStandard</defName>
+    <hediffGivers>
+      <li Class="Spessmen.HediffGiverSyndicateClass">
+        <hediff>ExplosiveImplant</hediff>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>
