@@ -1,23 +1,14 @@
 # SyndicateClassic
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Stealthkibblers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=743204350
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/SyndicateClassic]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 **THIS MOD IS NO LONGER BEING DEVELOPED**
@@ -31,7 +22,7 @@ click the images for better versions
 This mod adds the Syndicate faction as-well as the Greytide from the game Space Station Thirteen, the Syndicate will always be hostile towards you and every other colony but the Greytide will have random relations, the faction itself introduces 7 new guns, 10 melee weapons/tools and 1 grenade as-well as a new set of armor and shield type.
 
 **The Syndicate**
-The Syndicate isn&apos;t so much one group, as a load of groups, each vying for power! Various companies, criminal families, and paramilitary groups make up what is known as &quot;the Syndicate&quot;. While loose and sparse groups tend to make up the Syndicate there are notably more powerful organizations that make up most of the brunt force, internal affairs and industry, the most popular are Cybersun Industries, MI13, Tiger Cooperative, SELF, ARC, Gorlex Marauders, Donk Corporation and Waffle Corporation. The Syndicate are engaged in a combined war against Nanotrasen however they are more than happy to steal, sabotage and even outright attack other organisations, groups, even planets known as &quot;Rimworlds&quot; are not safe and are still easily within their grasp.
+The Syndicate isn't so much one group, as a load of groups, each vying for power! Various companies, criminal families, and paramilitary groups make up what is known as "the Syndicate". While loose and sparse groups tend to make up the Syndicate there are notably more powerful organizations that make up most of the brunt force, internal affairs and industry, the most popular are Cybersun Industries, MI13, Tiger Cooperative, SELF, ARC, Gorlex Marauders, Donk Corporation and Waffle Corporation. The Syndicate are engaged in a combined war against Nanotrasen however they are more than happy to steal, sabotage and even outright attack other organisations, groups, even planets known as "Rimworlds" are not safe and are still easily within their grasp.
 
 **Syndicate Strike Teams**
 Syndicate strike teams are equiped with expensive and effective paramilitary weaponry and even field the infamous Energy sword and Energy shield in some of their Operations, persons can be identified by their Blood Red Hardsuits which allow them to deploy in any environment including space itself in the event of a boarding action. Most Strike team raids are tasked with obliterating the original inhabitants of the target location or destroying any structure or structures located in the area. While total annihilation is a common objective sometimes Operatives may instead steal prisoners and items to either fund their further efforts or to secure valuable assets. 
@@ -88,7 +79,7 @@ Rate up if you enjoy this mod
 Otherwise if you have any issues please voice your opinion on them.
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -98,7 +89,6 @@ Otherwise if you have any issues please voice your opinion on them.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 
