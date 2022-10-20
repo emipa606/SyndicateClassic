@@ -1,31 +1,28 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using RimWorld;
 using Verse;
 
-namespace Spessmen
+namespace Spessmen;
+
+internal class Recipe_LoyaltyImplant : Recipe_InstallImplant
 {
-    // Token: 0x02000002 RID: 2
-    internal class Recipe_LoyaltyImplant : Recipe_InstallImplant
+    public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients,
+        Bill bill)
     {
-        // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
-        public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients,
-            Bill bill)
+        if (billDoer != null)
         {
-            if (billDoer != null)
+            if (CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
             {
-                if (CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
-                {
-                    return;
-                }
-
-                TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
+                return;
             }
 
-            pawn.health.AddHediff(recipe.addsHediff, part);
-            if (billDoer != null)
-            {
-                pawn.SetFaction(billDoer.Faction);
-            }
+            TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
+        }
+
+        pawn.health.AddHediff(recipe.addsHediff, part);
+        if (billDoer != null)
+        {
+            pawn.SetFaction(billDoer.Faction);
         }
     }
 }

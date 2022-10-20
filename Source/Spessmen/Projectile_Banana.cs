@@ -1,49 +1,43 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 
-namespace Spessmen
+namespace Spessmen;
+
+internal class Projectile_Banana : Projectile_Explosive
 {
-    // Token: 0x02000003 RID: 3
-    internal class Projectile_Banana : Projectile_Explosive
+    private bool armed;
+
+    private int live;
+
+    protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
-        // Token: 0x04000002 RID: 2
-        private bool armed;
+        landed = true;
+    }
 
-        // Token: 0x04000001 RID: 1
-        private int live;
-
-        // Token: 0x06000003 RID: 3 RVA: 0x0000206A File Offset: 0x0000026A
-        protected override void Impact(Thing hitThing)
+    public override void Tick()
+    {
+        live++;
+        if (live > 120)
         {
-            landed = true;
+            armed = true;
         }
 
-        // Token: 0x06000004 RID: 4 RVA: 0x00002074 File Offset: 0x00000274
-        public override void Tick()
+        if (live >= 1800)
         {
-            live++;
-            if (live > 120)
-            {
-                armed = true;
-            }
+            base.Destroy();
+        }
 
-            if (live >= 1800)
+        if (armed && live < 1800)
+        {
+            if (Position.GetFirstPawn(Map) != null)
             {
+                GenExplosion.DoExplosion(Position, Position.GetFirstPawn(Map).Map, 1f, DamageDefOf.Blunt, this, -1,
+                    -1,
+                    SoundDefOf.Pawn_Melee_Punch_HitPawn);
                 base.Destroy();
             }
-
-            if (armed && live < 1800)
-            {
-                if (Position.GetFirstPawn(Map) != null)
-                {
-                    GenExplosion.DoExplosion(Position, Position.GetFirstPawn(Map).Map, 1f, DamageDefOf.Blunt, this, -1,
-                        -1,
-                        SoundDefOf.Pawn_Melee_Punch_HitPawn);
-                    base.Destroy();
-                }
-            }
-
-            base.Tick();
         }
+
+        base.Tick();
     }
 }

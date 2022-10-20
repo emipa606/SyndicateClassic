@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>LoyaltyImplant</defName>
+    <label>Loyalty Implant</label>
+    <description>A high tech, unethical form of recruiting.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>LoyaltyImplantSurgery</RecipeDef>
+    </descriptionHyperlinks>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>
