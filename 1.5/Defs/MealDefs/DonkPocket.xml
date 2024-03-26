@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MealCooked">
+    <defName>DonkPocket</defName>
+    <label>Donk Pocket</label>
+    <description>Put a bangin' Donk on it!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/DonkPocket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>40</MarketValue>
+      <WorkToMake>350</WorkToMake>
+      <Nutrition>0.90</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <ingestEffect>AteDonkPocket</ingestEffect>
+      <ingestSound>Donkeatsus</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

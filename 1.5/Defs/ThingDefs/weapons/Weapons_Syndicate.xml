@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_C20r</defName>
+    <label>C20r Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_C20r</defName>
+    <label>C20r</label>
+    <description>This lightweight, compact bullpup rifle chambered in a devistating 12mm. This gun is the bread and butter of any Syndicate assault team due to its ability to fire in space and its compact size.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/C20r</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Mass>2.5</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiC20r</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_C20r</defaultProjectile>
+        <warmupTime>0.70</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>GunshotSMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_M90gl</defName>
+    <label>M90gl Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_M90gl</defName>
+    <label>M90gl</label>
+    <description>A Lightweight, compact top feed rifle chambered in 5.56. This advanced rifle is prefered by the most elite Syndicate strike teams due to its stopping power and undermounted grenade launcher. *disclaimer* Grenade launcher may be disabled for planetary missions due to Ordinance Restriction Ordinance chapter 12 paragraph 3.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/M90gl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Mass>4.5</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiM90gl</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_M90gl</defaultProjectile>
+        <warmupTime>0.90</warmupTime>
+        <range>24</range>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>15</burstShotCount>
+        <soundCast>GunshotSMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Syndivolver</defName>
+    <label>Syndicate Revolver Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>32</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Syndivolver</defName>
+    <label>Syndicate Revolver</label>
+    <description>This simple .357 Revolver is a truly feared weapon. While it lacks in range, it makes up for as a devestating close range weapon, prefered by assassins and traitors due to it's simplicity, reliability, concealability and close range stopping power. This space friendly weapon will guarantee anyone within 10 meters is going to have a bad day.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/Syndivolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.10</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Mass>1.4</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiRevolver</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Syndivolver</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>16</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Gunshotsimple</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Syndipistol</defName>
+    <label>Stetchkin Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Stetchkin</defName>
+    <label>Stetchkin Pistol</label>
+    <description>Often used by covert operatives or desperate Strike teams strapped on Telecrystals, this pistol operates as a trustworthy sidearm and an effective primary weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/Securitypistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Mass>1.2</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiPistol</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Syndipistol</defaultProjectile>
+        <warmupTime>0.10</warmupTime>
+        <range>18</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Gunshot2</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SaberSMG</defName>
+    <label>Saber SMG</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_SaberSMG</defName>
+    <label>Prototype Saber SMG</label>
+    <description>A prototype SMG weapon stolen from a high tech Nanotrasen Research Facility, because of their heavy manafacturing costs involving Nanotrasen holding a monopoly on Solid Plasma deposits there are very few circulating Syndicate posession and those that are can be very expensive.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/Saber</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>6500</MarketValue>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+      <Mass>2.5</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiSaber</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_SaberSMG</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>14</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>15</burstShotCount>
+        <soundCast>Saber</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_L6LMG</defName>
+    <label>L6 LMG</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_L6LMG</defName>
+    <label>L6 LMG</label>
+    <description>Effective at mowing down squishy humanoids and fortifications, The L6 SMG is a deadly weapon capable of decimating entire platoons of infantry, however the size of the ammunition cartridges makes the user vulnerable when reloading.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/L6SAW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>2400</MarketValue>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
+      <Mass>3.5</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiLMG</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_L6LMG</defaultProjectile>
+        <warmupTime>1.30</warmupTime>
+        <range>25</range>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>70</burstShotCount>
+        <soundCast>GunshotSMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Bulldog</defName>
+    <label>Bulldog</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Bulldog</defName>
+    <label>Bulldog Shotgun</label>
+    <description>The Bulldog shotgun is the best close quarters weapon the Syndicate has access to, lightweight, automatic and deadly to anything on the other end of the barrel it's still commonly utilized by space and ground strike teams alike.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Syndi/Bulldog</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>1600</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.20</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <Mass>3.4</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponTags>
+      <li>SyndiBulldog</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Bulldog</defaultProjectile>
+        <warmupTime>0.20</warmupTime>
+        <range>18</range>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>Gunshotsimple</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef Name="BaseEquipment" Abstract="True">
+    <equipmentType>Secondary</equipmentType>
+    <label>equipment lacks label</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <Mass>0.5</Mass>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <description>Equipment lacks desc.</description>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tickerType>Never</tickerType>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>Proj_Minibomb</defName>
+    <label>Syndicate Minibomb</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Minibomb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>2.5</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionDelay>100</explosionDelay>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseEquipment">
+    <defName>Weapon_Minibomb</defName>
+    <equipmentType>Primary</equipmentType>
+    <label>Syndicate Minibombs</label>
+    <description>A Syndicate payload in the form of a small throwable capsule.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Grenades/Minibomb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SyndiMinibomb</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw minibomb</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.0</forcedMissRadius>
+        <warmupTime>0.90</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>armbomb</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Proj_Minibomb</defaultProjectile>
+      </li>
+    </verbs>
+    <smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+    <smeltable>true</smeltable>
+  </ThingDef>
+</Defs>
