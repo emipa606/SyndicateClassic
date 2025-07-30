@@ -1,0 +1,116 @@
+ManifestFileVersion: 0
+CRC: 179928831
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7981610dd26aa4113582212c2def04e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7981610dd26aa4113582212c2def04e6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Stunprod.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Fat_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Male_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/EnergyShield/EnergyShield.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Hulk_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Pickaxe.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Male_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Wrench.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/Bladeslice.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/WeaponMelee/DoubleSword.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Black
+  outlined/Hardsuit_Fat_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Male_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Screwdriver.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Black
+  outlined/Hardsuit_Fat_north.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/saberon.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Thin_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet_east.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/Welder.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/C20r.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Female_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Welder.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/GasMask/GasMask_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet_east.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/wave.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Fat_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Fat_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/GasMask/GasMask_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Male_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Hulk_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Fat_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Meal/DonkPocket.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Male_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Hulk_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Fat_south.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/Genhit2.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Female_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Thin_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/Securitypistol.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat_north.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/blade1.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Female_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Crowbar.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/Gunshot_smg.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/Saber.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/GasMask/GasMask_south.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/armbomb.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Thin_east.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/chainsawhit.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/ImprovSpear.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/FirstAidKit.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/L6SAW.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Chainsaw.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Artifact/Document.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Female_north.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/Genhit1.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Hulk_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Greytide/Toolbox.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Hulk_south.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/Explosion1.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Thin_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Black
+  outlined/Hardsuit_Fat_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/Syndivolver.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/Bulldog.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/Gunshot2.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/SyndiHelmet/SyndiHelmet_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Male_north.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Female_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/WeaponMelee/EnergySword.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt_Thin_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Fat_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Hulk_north.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Weapons/Gunshot.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/GasMask/GasMask.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat_south.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Greytide/Clonk.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Projectile/Minibomb.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Syndi/M90gl.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Female_south.png
+- Assets/Data/Mlie.SyndicateClassic/Sounds/Meal/eatfood.wav
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat_east.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/InsulatedGloves/InsulatedGloves.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Artifact/LoyaltyImplant.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Pawn/Humanoid/Apparel/Hardsuit/Hardsuit_Thin_south.png
+- Assets/Data/Mlie.SyndicateClassic/Textures/Things/Item/Equipment/Grenades/Minibomb.png
+Dependencies: []

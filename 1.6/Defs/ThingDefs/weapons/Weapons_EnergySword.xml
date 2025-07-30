@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_EnergySword</defName>
+    <label>Energy Sword</label>
+    <description>A small metal hilt that projects a blade of pure energy, the most popular and only choice among operatives who favor a melee approach.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/EnergySword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>saberon</soundInteract>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>SyndiSword</li>
+    </weaponTags>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>BladeCut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_DoubleSword</defName>
+    <label>Double Bladed Energy Sword</label>
+    <description>Two Energy Swords combined together to make a double energy sword, absolute badass until an unarmed assistant disarms you or a clown slips you.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/DoubleSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>saberon</soundInteract>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>SyndiDoubleSword</li>
+    </weaponTags>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>BladeCut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>BladeCut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ManeuverDef>
+    <defName>BladeCut</defName>
+    <requiredCapacity>BladeCut</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+      <soundCast>BLADE</soundCast>
+    </verb>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>BladeCut</defName>
+    <label>BladeCut</label>
+  </ToolCapacityDef>
+</Defs>

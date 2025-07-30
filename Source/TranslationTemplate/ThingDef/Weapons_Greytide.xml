@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Chainsaw -->
+  <MeleeWeapon_Chainsaw.label>Chainsaw</MeleeWeapon_Chainsaw.label>
+  <!-- EN: BEWARE THE TUNNEL CLOWN!! -->
+  <MeleeWeapon_Chainsaw.description>BEWARE THE TUNNEL CLOWN!!</MeleeWeapon_Chainsaw.description>
+  <!-- EN: edge -->
+  <MeleeWeapon_Chainsaw.tools.edge.label>edge</MeleeWeapon_Chainsaw.tools.edge.label>
+  <!-- EN: Wrench -->
+  <MeleeWeapon_Crowbar.label>Wrench</MeleeWeapon_Crowbar.label>
+  <!-- EN: Not to be mistaken for a suspicious crowbar -->
+  <MeleeWeapon_Crowbar.description>Not to be mistaken for a suspicious crowbar</MeleeWeapon_Crowbar.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Crowbar.tools.handle.label>handle</MeleeWeapon_Crowbar.tools.handle.label>
+  <!-- EN: head -->
+  <MeleeWeapon_Crowbar.tools.head.label>head</MeleeWeapon_Crowbar.tools.head.label>
+  <!-- EN: Medkit -->
+  <MeleeWeapon_FirstAid.label>Medkit</MeleeWeapon_FirstAid.label>
+  <!-- EN: Automatically sorts medication, gauzes, salves, syringes and has an inbuilt health analyzer increasing healing efficiency. -->
+  <MeleeWeapon_FirstAid.description>Automatically sorts medication, gauzes, salves, syringes and has an inbuilt health analyzer increasing healing efficiency.</MeleeWeapon_FirstAid.description>
+  <!-- EN: box -->
+  <MeleeWeapon_FirstAid.tools.box.label>box</MeleeWeapon_FirstAid.tools.box.label>
+  <!-- EN: Improvised Spear -->
+  <MeleeWeapon_ImprovisedSpear.label>Improvised Spear</MeleeWeapon_ImprovisedSpear.label>
+  <!-- EN: The Improvised spear is infamous for its reliabilty, lethality, abundancy and its common use among Greytiders. -->
+  <MeleeWeapon_ImprovisedSpear.description>The Improvised spear is infamous for its reliabilty, lethality, abundancy and its common use among Greytiders.</MeleeWeapon_ImprovisedSpear.description>
+  <!-- EN: shaft -->
+  <MeleeWeapon_ImprovisedSpear.tools.shaft.label>shaft</MeleeWeapon_ImprovisedSpear.tools.shaft.label>
+  <!-- EN: point -->
+  <MeleeWeapon_ImprovisedSpear.tools.point.label>point</MeleeWeapon_ImprovisedSpear.tools.point.label>
+  <!-- EN: Pickaxe -->
+  <MeleeWeapon_Pickaxe.label>Pickaxe</MeleeWeapon_Pickaxe.label>
+  <!-- EN: Standard Nanotrasen pickaxe, designed for extra picking, the edges and ends are extra pointy and sharp for eradicating filthy xenos or giant space carp. -->
+  <MeleeWeapon_Pickaxe.description>Standard Nanotrasen pickaxe, designed for extra picking, the edges and ends are extra pointy and sharp for eradicating filthy xenos or giant space carp.</MeleeWeapon_Pickaxe.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Pickaxe.tools.handle.label>handle</MeleeWeapon_Pickaxe.tools.handle.label>
+  <!-- EN: pick -->
+  <MeleeWeapon_Pickaxe.tools.pick.label>pick</MeleeWeapon_Pickaxe.tools.pick.label>
+  <!-- EN: Screwdriver -->
+  <MeleeWeapon_Screwdriver.label>Screwdriver</MeleeWeapon_Screwdriver.label>
+  <!-- EN: Apply to eyes for maximum effectivenes -->
+  <MeleeWeapon_Screwdriver.description>Apply to eyes for maximum effectivenes</MeleeWeapon_Screwdriver.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Screwdriver.tools.handle.label>handle</MeleeWeapon_Screwdriver.tools.handle.label>
+  <!-- EN: point -->
+  <MeleeWeapon_Screwdriver.tools.point.label>point</MeleeWeapon_Screwdriver.tools.point.label>
+  <!-- EN: Toolbox -->
+  <MeleeWeapon_Toolbox.label>Toolbox</MeleeWeapon_Toolbox.label>
+  <!-- EN: Its full, of the souls of past victims which instill some form of mystical engineering knowledge within the user. It's also great at caving in skulls. -->
+  <MeleeWeapon_Toolbox.description>Its full, of the souls of past victims which instill some form of mystical engineering knowledge within the user. It's also great at caving in skulls.</MeleeWeapon_Toolbox.description>
+  <!-- EN: box -->
+  <MeleeWeapon_Toolbox.tools.box.label>box</MeleeWeapon_Toolbox.tools.box.label>
+  <!-- EN: Welder -->
+  <MeleeWeapon_Welder.label>Welder</MeleeWeapon_Welder.label>
+  <!-- EN: The Welder is known for its extensive utility and efficiency at melting faces off. -->
+  <MeleeWeapon_Welder.description>The Welder is known for its extensive utility and efficiency at melting faces off.</MeleeWeapon_Welder.description>
+  <!-- EN: flame -->
+  <MeleeWeapon_Welder.tools.flame.label>flame</MeleeWeapon_Welder.tools.flame.label>
+  <!-- EN: Wrench -->
+  <MeleeWeapon_Wrench.label>Wrench</MeleeWeapon_Wrench.label>
+  <!-- EN: Great all round tool, wrench a girder, wrench a table, wrench the clown, wrench the head of securities limbs. -->
+  <MeleeWeapon_Wrench.description>Great all round tool, wrench a girder, wrench a table, wrench the clown, wrench the head of securities limbs.</MeleeWeapon_Wrench.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_Wrench.tools.handle.label>handle</MeleeWeapon_Wrench.tools.handle.label>
+  <!-- EN: head -->
+  <MeleeWeapon_Wrench.tools.head.label>head</MeleeWeapon_Wrench.tools.head.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook donk pocket -->
+  <CookDonkPocket.label>cook donk pocket</CookDonkPocket.label>
+  <!-- EN: Cooks a Donk Pocket. -->
+  <CookDonkPocket.description>Cooks a Donk Pocket.</CookDonkPocket.description>
+  <!-- EN: Cooking Donk Pocket. -->
+  <CookDonkPocket.jobString>Cooking Donk Pocket.</CookDonkPocket.jobString>
+</LanguageData>

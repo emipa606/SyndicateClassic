@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Operative -->
+  <Operative.label>Operative</Operative.label>
+  <Operative.labelFemale />
+  <Operative.labelFemalePlural />
+  <Operative.labelMale />
+  <Operative.labelMalePlural />
+  <Operative.labelPlural />
+  <!-- EN: Syndicate SwordMaster -->
+  <SwordMaster.label>Syndicate SwordMaster</SwordMaster.label>
+  <SwordMaster.labelFemale />
+  <SwordMaster.labelFemalePlural />
+  <SwordMaster.labelMale />
+  <SwordMaster.labelMalePlural />
+  <SwordMaster.labelPlural />
+  <!-- EN: Syndicate Cuban Pete -->
+  <SyndieBomber.label>Syndicate Cuban Pete</SyndieBomber.label>
+  <SyndieBomber.labelFemale />
+  <SyndieBomber.labelFemalePlural />
+  <SyndieBomber.labelMale />
+  <SyndieBomber.labelMalePlural />
+  <SyndieBomber.labelPlural />
+  <!-- EN: Syndicate Strike Leader -->
+  <Syndrone.label>Syndicate Strike Leader</Syndrone.label>
+  <Syndrone.labelFemale />
+  <Syndrone.labelFemalePlural />
+  <Syndrone.labelMale />
+  <Syndrone.labelMalePlural />
+  <Syndrone.labelPlural />
+</LanguageData>

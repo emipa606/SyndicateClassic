@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: human -->
+  <Syndicate.label>human</Syndicate.label>
+  <!-- EN: A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets. -->
+  <Syndicate.description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</Syndicate.description>
+  <!-- EN: left fist -->
+  <Syndicate.tools.left_fist.label>left fist</Syndicate.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Syndicate.tools.right_fist.label>right fist</Syndicate.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Syndicate.tools.teeth.label>teeth</Syndicate.tools.teeth.label>
+  <!-- EN: head -->
+  <Syndicate.tools.head.label>head</Syndicate.tools.head.label>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Double Bladed Energy Sword -->
+  <MeleeWeapon_DoubleSword.label>Double Bladed Energy Sword</MeleeWeapon_DoubleSword.label>
+  <!-- EN: Two Energy Swords combined together to make a double energy sword, absolute badass until an unarmed assistant disarms you or a clown slips you. -->
+  <MeleeWeapon_DoubleSword.description>Two Energy Swords combined together to make a double energy sword, absolute badass until an unarmed assistant disarms you or a clown slips you.</MeleeWeapon_DoubleSword.description>
+  <!-- EN: edge -->
+  <MeleeWeapon_DoubleSword.tools.edge-0.label>edge</MeleeWeapon_DoubleSword.tools.edge-0.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_DoubleSword.tools.edge-1.label>edge</MeleeWeapon_DoubleSword.tools.edge-1.label>
+  <!-- EN: Energy Sword -->
+  <MeleeWeapon_EnergySword.label>Energy Sword</MeleeWeapon_EnergySword.label>
+  <!-- EN: A small metal hilt that projects a blade of pure energy, the most popular and only choice among operatives who favor a melee approach. -->
+  <MeleeWeapon_EnergySword.description>A small metal hilt that projects a blade of pure energy, the most popular and only choice among operatives who favor a melee approach.</MeleeWeapon_EnergySword.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_EnergySword.tools.handle.label>handle</MeleeWeapon_EnergySword.tools.handle.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_EnergySword.tools.edge.label>edge</MeleeWeapon_EnergySword.tools.edge.label>
+</LanguageData>

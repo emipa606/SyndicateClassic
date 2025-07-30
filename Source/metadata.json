@@ -2,5 +2,18 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "1",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 3222,
+  "LinesOfXML": 100515,
+  "CodeBaseSize": 79,
+  "LastXmlCleaning": "2025-07-30T16:08:08.0740744+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " sci-fi",
+    " guns",
+    " weapons"
+  ]
 }

@@ -14,7 +14,7 @@ internal class Projectile_Banana : Projectile_Explosive
         landed = true;
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         live++;
         if (live > 120)

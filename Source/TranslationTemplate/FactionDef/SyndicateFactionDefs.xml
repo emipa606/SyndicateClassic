@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Syndicate -->
+  <Syndicate.label>Syndicate</Syndicate.label>
+  <!-- EN: A collection of Businesses, Mercenary groups, Usurped Factions and various fanatic groups that would otherwise have been eradicated had they not come together as a collective, while they work together they are as morally bankrupt as pirates and value their own gain above all else even over their fellow collaborates. -->
+  <Syndicate.description>A collection of Businesses, Mercenary groups, Usurped Factions and various fanatic groups that would otherwise have been eradicated had they not come together as a collective, while they work together they are as morally bankrupt as pirates and value their own gain above all else even over their fellow collaborates.</Syndicate.description>
+  <!-- EN: Syndrone -->
+  <Syndicate.leaderTitle>Syndrone</Syndicate.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Syndicate.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Syndicate.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Syndicate.pawnSingular>member</Syndicate.pawnSingular>
+  <!-- EN: Syndicate -->
+  <Syndicate.pawnsPlural>Syndicate</Syndicate.pawnsPlural>
+</LanguageData>
